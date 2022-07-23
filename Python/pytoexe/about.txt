@@ -1,0 +1,7 @@
+# This app converts .py to exe.
+
+Requirements:
+cmd, python
+
+Python packages (pip install): 
+Tkinter, os, shutil
