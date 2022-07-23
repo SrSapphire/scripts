@@ -1,0 +1,51 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(139, 141, 255);
+    color: white
+}
+header{
+    text-shadow: 0px 0px 3px black;
+}
+section{
+    box-shadow: 0px 1px 3px black;
+    border-radius: 20px;
+    margin: 0px auto;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 300px;
+}
+input#number{
+    width: 100px;
+}
+input{
+    padding-left: 5px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: gray;
+}
+div#input{
+    padding-top: 10px;
+}
+div#tabuada{
+    text-align: left;
+}
+input:hover{
+    background-color: rgb(226, 226, 226);
+}
+footer{
+    text-shadow: 0px 0px 3px black;
+    margin-top: 10px;
+}
+footer:hover{
+    text-shadow: 0px 0px 1px rgb(255, 255, 255);
+    cursor: pointer;
+}
+div#resultarea{
+    text-align: left;
+}
+select{
+    padding: 5px;
+    margin: 50px 10px;
+}

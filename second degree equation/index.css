@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+    width: 300px;
+}
+.column {
+    float: left;
+    width: max-content;
+    padding: 10px;
+
+}
+div#input{
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    width: 260px;
+    height: 40px;
+    background-color:rgb(25, 43, 43);
+}
+input{
+    border-radius: 10px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div#account{
+    margin-left: 72px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+    border-style:groove; 
+}
+fraction{
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.3fr;
+    font-size: 15px;
+    vertical-align:top;
+    text-align: center;
+}
+numer{
+    border-bottom: 1px solid;
+}

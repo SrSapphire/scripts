@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>Verificador de idade</header>
+    <section id="area">
+        <div id="askyear">Ano de nascimento <input t ype="text" id="year" maxlength="4">
+        </div>
+        <div id="asksex">
+            <div class="control">
+                Sexo: <label class="radio">
+                  <input type="radio" name="sex" checked >Masculino
+                </label>
+                <label class="radio">
+                  <input type="radio" name="sex">Feminino
+                </label>
+            </div>
+        </div>
+        <input type="button" value="Verificar" id="check" onclick="check()">
+        <p id="info"></p>
+    </section>
+    <footer>
+        <a href="https://www.instagram.com/viniciusalexandr3/" style="all: unset;">@Viniciusalexandr3</a>
+    </footer>
+    <script src="main.js"></script>
+</body>
